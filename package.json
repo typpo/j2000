@@ -1,0 +1,9 @@
+{
+  "name": "j2000",
+  "version": "1.0.0",
+  "description": "Simple conversion functions for J2000 (Julian Date)",
+  "main": "index.js",
+  "repository": "https://github.com/typpo/j2000",
+  "author": "Ian Webster",
+  "license": "MIT"
+}
