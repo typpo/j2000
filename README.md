@@ -29,7 +29,8 @@ var myDate = converter.j2000ToDate(512766069.184);
 ## Bonus constant
 
 You can get the number of leap seconds since the year 2000:
-```
+
+```javascript
 var leapsec = require('j2000').NUM_LEAP_SEC_SINCE_2000;
 ```
 
