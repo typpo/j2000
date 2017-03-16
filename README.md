@@ -3,6 +3,10 @@ J2000 Time Converter
 
 This is a simple javascript converter between j2000, unix time, and javascript date formats.
 
+To install: `npm install j2000`
+
+Usage:
+
 ```javascript
 var converter = require('j2000');
 
