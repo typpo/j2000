@@ -1,7 +1,7 @@
 {
   "name": "j2000",
   "version": "1.0.0",
-  "description": "Simple conversion functions for J2000 (Julian Date)",
+  "description": "Simple conversion functions for J2000 (Julian Date) to Unix timestamp and Javascript Date",
   "main": "index.js",
   "repository": "https://github.com/typpo/j2000",
   "author": "Ian Webster",
