@@ -11,7 +11,7 @@ var assert = globalMocha.assert;
 // http://aa.usno.navy.mil/faq/docs/TT.php
 const UNIX_12PM_GMT_Y2K = 946727935.816;
 
-const NUM_LEAP_SEC = J2000Converter.numLeapSecondsSince2000;
+const NUM_LEAP_SEC = J2000Converter.NUM_LEAP_SEC_SINCE_2000;
 
 var assert = require('assert');
 describe('Converter', function() {

@@ -28,7 +28,7 @@ var J2000Converter = undefined;
     j2000ToUnix: j2000ToUnix,
     dateToJ2000: dateToJ2000,
     j2000ToDate: j2000ToDate,
-    numLeapSecondsSince2000: LEAP_SEC_SINCE_J2000,
+    NUM_LEAP_SEC_SINCE_2000: LEAP_SEC_SINCE_J2000,
   };
 })();
 
