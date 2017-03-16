@@ -4,9 +4,12 @@ var globalMocha = require('global-mocha');
 var describe = globalMocha.describe;
 var assert = globalMocha.assert;
 
-// J2000 epoch = 12pm GMT on 1/1/2000
+// J2000 epoch = 12pm TT on 1/1/2000
 // https://en.wikipedia.org/wiki/Epoch_(astronomy)#Julian_years_and_J2000
-const UNIX_12PM_GMT_Y2K = 946728000;
+// According to the US Naval Office, this is 2000 January 1, 11:59:27.816 TAI
+// or 2000 January 1, 11:58:55.816 UTC.
+// http://aa.usno.navy.mil/faq/docs/TT.php
+const UNIX_12PM_GMT_Y2K = 946727935.816;
 
 var assert = require('assert');
 describe('Converter', function() {
