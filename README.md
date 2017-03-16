@@ -1,5 +1,6 @@
 J2000 Time Converter
 ---
+[![Build Status](https://travis-ci.org/typpo/j2000.svg?branch=master)](https://travis-ci.org/typpo/j2000)
 
 This is a simple javascript converter between j2000, unix time, and javascript date formats.
 
