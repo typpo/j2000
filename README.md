@@ -1,4 +1,4 @@
-J2000 Converter
+J2000 Time Converter
 ---
 
 This is a simple javascript converter between j2000, unix time, and javascript date formats.
