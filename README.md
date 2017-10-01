@@ -6,7 +6,7 @@ This is a simple javascript converter between j2000, unix time, and javascript d
 
 To install: `npm install j2000`
 
-Usage:
+# Usage
 
 ```javascript
 var converter = require('j2000');
