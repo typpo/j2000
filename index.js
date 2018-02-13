@@ -2,6 +2,7 @@ var J2000Converter = undefined;
 
 (function() {
   // See https://www.ietf.org/timezones/data/leap-seconds.list
+  // Last updated: 1 Jan 2017
   var LEAP_SEC_SINCE_J2000 = 5;
 
   // Unix time at 12:00:00 TT Jan 1 2000
